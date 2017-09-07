@@ -1,5 +1,5 @@
 # FWProgressHUD
-![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/1.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/2.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/3.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/4.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/5.png)
+![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/1.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/2.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/3.png)![FWProgressHUD](https://github.com/FSilver/FWProgressHUD/blob/master/5.png)
 ## Samples.
 ### Indicator only.
     FWProgressHUD *hud = [FWProgressHUD showHUDAddedTo:self.view];

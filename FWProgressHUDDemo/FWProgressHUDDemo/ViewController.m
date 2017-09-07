@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     NSArray *arr = @[@"FWProgressHUDModeIndeterminate(1)",@"FWProgressHUDModeIndeterminate(2)",@"FWProgressHUDModeText",@"FWProgressHUDModeCustomView(1)",@"FWProgressHUDModeCustomView(2)"];
     [arr enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
@@ -28,6 +28,8 @@
         [btn setTitle:obj forState:UIControlStateNormal];
         [self.view addSubview:btn];
     }];
+    
+    
 
     // Do any additional setup after loading the view, typically from a nib.
 }

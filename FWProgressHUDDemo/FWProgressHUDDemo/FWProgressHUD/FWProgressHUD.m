@@ -77,7 +77,6 @@
     _bezelView.layer.cornerRadius = 5.f;
     _bezelView.alpha = 3.f;
     [self addSubview:_bezelView];
-    
 
     UILabel *label = [UILabel new];
     label.adjustsFontSizeToFitWidth = NO;
@@ -138,6 +137,7 @@
     
     [self setNeedsUpdateConstraints];
 }
+
 
 
 
